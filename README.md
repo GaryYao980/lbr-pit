@@ -171,7 +171,7 @@ Each property guards a specific claim this README makes:
   contract calendar. See the comment in `app/queries.py::continuous`.
 - **COT `release_ts` is a documented assumption, not a sourced fact.** It
   derives "the Friday of the report week" from `report_date` rather than a
-  flat `+3 days`, which fixes 2 of 297 rows where the as-of date itself
-  shifts for a holiday — but it still assumes that Friday release always
-  lands at 15:30 ET, which is wrong for the 8 of 297 weeks where that
-  Friday is itself a US holiday. See `etl/load_cot.py` and `etl/README.md`.
+  flat `+3 days`, which fixes 2 of the 170 loaded report dates where the
+  as-of date itself shifts for a holiday — but it still assumes that Friday
+  release always lands at 15:30 ET, which is wrong for 6 of those 170 weeks,
+  where that Friday is itself a US federal holiday. See `etl/load_cot.py` and `etl/README.md`.
