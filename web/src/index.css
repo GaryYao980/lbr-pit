@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+.rail {
+  width: 240px;
+  flex-shrink: 0;
+  padding: 24px 16px;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+.rail h1 { margin: 0 0 4px; font-size: 1.4rem; }
+.subtitle { margin: 0 0 24px; font-size: 0.85rem; color: #94a3b8; }
+.as-of-label { display: block; margin-bottom: 8px; font-size: 0.9rem; }
+.as-of-slider { width: 100%; }
+.rail .note { font-size: 0.75rem; color: #94a3b8; margin-top: 16px; }
+
+.grid {
+  flex: 1;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: min-content;
+  align-content: start;
+  align-items: start;
+  gap: 16px;
+}
+.panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+.panel--wide { grid-column: span 2; }
+.panel--greyed {
+  background: #f1f5f9;
+  color: #64748b;
+  border-style: dashed;
+}
+.panel h2 { margin-top: 0; font-size: 1rem; }
+.panel .note { font-size: 0.8rem; color: #64748b; }
+.panel .error { color: #dc2626; font-size: 0.85rem; }
+.toggles { display: flex; gap: 16px; margin-bottom: 12px; font-size: 0.85rem; }
+.toggles select { margin-left: 6px; }
+
+.controls { display: flex; gap: 6px; margin: 4px 0 10px; }
+.controls button {
+  font-size: 12px; padding: 3px 9px; cursor: pointer;
+  border: 1px solid #cbd5e1; border-radius: 5px; background: #fff; color: #334155;
+}
+.controls button.active { border-color: #0f766e; color: #0f766e; background: #f0fdfa; }
+.panel h3 { font-size: 13px; font-weight: 600; margin: 14px 0 2px; color: #334155; }
+.note.limitation { color: #b45309; }

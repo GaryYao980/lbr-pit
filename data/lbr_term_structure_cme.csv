@@ -1,0 +1,22 @@
+trade_date,month,settle,change,volume,open_interest,no_trade_flag,note
+2026-07-23,SEP26,657.50,-1.50,940,6477,0,real
+2026-07-23,NOV26,650.50,-1.50,228,898,0,real
+2026-07-23,JAN27,656.00,-1.00,7,12,1,thin: volume 6-9 lots on 12-35 OI; change identical to the zero-volume deferred block — status unconfirmed
+2026-07-23,MAR27,667.50,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-23,MAY27,679.00,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-23,JUL27,690.50,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-23,SEP27,702.00,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-27,SEP26,647.50,-7.00,552,6974,0,real
+2026-07-27,NOV26,642.00,-8.00,97,999,0,real
+2026-07-27,JAN27,648.00,-10.00,6,35,1,thin: volume 6-9 lots on 12-35 OI; change identical to the zero-volume deferred block — status unconfirmed
+2026-07-27,MAR27,659.50,-10.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-27,MAY27,671.00,-10.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-27,JUL27,682.50,-10.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-27,SEP27,694.00,-10.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-29,SEP26,634.00,-4.00,1011,7123,0,real
+2026-07-29,NOV26,635.00,-2.50,88,1045,0,real
+2026-07-29,JAN27,642.50,-1.00,9,35,1,thin: volume 6-9 lots on 12-35 OI; change identical to the zero-volume deferred block — status unconfirmed
+2026-07-29,MAR27,654.00,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-29,MAY27,665.50,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-29,JUL27,677.00,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed
+2026-07-29,SEP27,688.50,-1.00,0,0,1,zero volume, zero OI, identical change — status unconfirmed

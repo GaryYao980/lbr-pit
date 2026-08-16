@@ -1,0 +1,29 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.env
+
+# never publish the application-strategy spec or exploration scratch
+DEMO_SLICE_SPEC.md
+docs/SPEC.md
+*.ipynb_checkpoints
+.DS_Store
+
+# python env + local artefacts
+.venv/
+venv/
+env/
+.env.*
+!.env.example
+*.sqlite
+*.db
+*.log
+.vscode/
+.idea/
+
+# test / lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
